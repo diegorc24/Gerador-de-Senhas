@@ -4,8 +4,22 @@
   "description": "Melhor gerador de senhas de todos os tempos",
   "main": "index.js",
   "scripts": {
+    "dev": "vite --open",
+    "lint": "eslint ./src",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.4",
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^5.0.6",
+    "vite": "^5.1.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0"
+  }
 }
